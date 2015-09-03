@@ -1,0 +1,1596 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"expand_key"
+			],
+			[
+				"weighted",
+				"weighted_returns"
+			],
+			[
+				"mask",
+				"mask_id"
+			],
+			[
+				"test",
+				"test_set"
+			],
+			[
+				"head",
+				"heavy_data"
+			],
+			[
+				"class",
+				"classification"
+			],
+			[
+				"raw",
+				"raw_data_folder"
+			],
+			[
+				"score",
+				"score_emp_length"
+			],
+			[
+				"varia",
+				"variables_LC"
+			],
+			[
+				"get",
+				"get_purpose"
+			],
+			[
+				"purp",
+				"purp_dic"
+			],
+			[
+				"column",
+				"columns"
+			],
+			[
+				"issu",
+				"issued_more_than_12M_ago"
+			],
+			[
+				"set",
+				"set_index"
+			],
+			[
+				"conca",
+				"concat  (function)"
+			],
+			[
+				"logit",
+				"logit_results"
+			],
+			[
+				"logit_",
+				"logit_proba"
+			],
+			[
+				"v",
+				"values"
+			],
+			[
+				"line",
+				"linear_model"
+			],
+			[
+				"logi",
+				"logistic_function"
+			],
+			[
+				"inter",
+				"clf.intercept_"
+			],
+			[
+				"coef",
+				"clf.coef_"
+			],
+			[
+				"one",
+				"one_factor_logit"
+			],
+			[
+				"plot",
+				"plot_roc"
+			],
+			[
+				"ins",
+				"insurent_buildings"
+			],
+			[
+				"stand",
+				"standard_address"
+			],
+			[
+				"insu",
+				"insurent_partners"
+			],
+			[
+				"17",
+				"170"
+			],
+			[
+				"zip",
+				"zip_code"
+			],
+			[
+				"stre",
+				"street_address"
+			],
+			[
+				"all_bi",
+				"all_buildings"
+			],
+			[
+				"toc",
+				"to_csv"
+			],
+			[
+				"appen",
+				"append_frames"
+			],
+			[
+				"forma",
+				"formatted_address"
+			],
+			[
+				"result",
+				"results"
+			],
+			[
+				"area",
+				"area_name"
+			],
+			[
+				"utf",
+				"utf-8"
+			],
+			[
+				"manager",
+				"manager_url"
+			],
+			[
+				"buid",
+				"building_address"
+			],
+			[
+				"issue",
+				"issue_datetime"
+			],
+			[
+				"iss",
+				"test.issue_datetime"
+			],
+			[
+				"last_",
+				"last_pymnt_datetime"
+			],
+			[
+				"filt",
+				"filter_nyc"
+			],
+			[
+				"filter_nyc_and",
+				"filter_nyc_and_ny_state"
+			],
+			[
+				"filter_",
+				"filter_ny_state"
+			],
+			[
+				"filter",
+				"filter_ny_state"
+			],
+			[
+				"addr",
+				"data.addr_state"
+			],
+			[
+				"filer",
+				"filter_nyc"
+			],
+			[
+				"VAlu",
+				"all_nyc_spelling.values"
+			],
+			[
+				"all",
+				"all_nyc_spelling"
+			],
+			[
+				"add",
+				"addr_city"
+			],
+			[
+				"to_c",
+				"res.to_dict"
+			],
+			[
+				"ad",
+				"addr_state"
+			],
+			[
+				"ch",
+				"charged_off_or_default"
+			],
+			[
+				"var",
+				"variables_of_interest"
+			],
+			[
+				"tod",
+				"res.to_dict"
+			],
+			[
+				"wei",
+				"weighted_returns"
+			],
+			[
+				"ho",
+				"home_ownership"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"run",
+				"runBacktest"
+			],
+			[
+				"DE",
+				"DEFAULTED"
+			],
+			[
+				"gr",
+				"grade"
+			],
+			[
+				"weig",
+				"weighted_loss_rate"
+			],
+			[
+				"loas",
+				"loans_outstanding_notionals"
+			],
+			[
+				"outs",
+				"outstanding_notional_weighted_sum"
+			],
+			[
+				"tot",
+				"total_weights"
+			],
+			[
+				"mixe",
+				"mixed_maturity_returns"
+			],
+			[
+				"ptf",
+				"ptf_weights"
+			],
+			[
+				"retur",
+				"returns"
+			],
+			[
+				"gro",
+				"DataFrame.groupby"
+			],
+			[
+				"36",
+				"362754"
+			],
+			[
+				"aver",
+				"average_rate"
+			],
+			[
+				"interes",
+				"interestRate"
+			],
+			[
+				"ave",
+				"average_rate"
+			],
+			[
+				"to",
+				"to_csv  (function)"
+			],
+			[
+				"Dat",
+				"DataFrame"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"group",
+				"groupby"
+			],
+			[
+				"INTERE",
+				"interest_paid"
+			],
+			[
+				"interst",
+				"interest_paid"
+			],
+			[
+				"intere",
+				"interest_paid"
+			],
+			[
+				"LO",
+				"LOAN_ID"
+			],
+			[
+				"default",
+				"default_timing"
+			],
+			[
+				"PE",
+				"PERIOD_END_LSTAT"
+			],
+			[
+				"ke",
+				"keys"
+			],
+			[
+				"hea",
+				"heavy_data"
+			],
+			[
+				"get_",
+				"get_first"
+			],
+			[
+				"fis",
+				"g.first"
+			],
+			[
+				"gra",
+				"grade_C"
+			],
+			[
+				"grad",
+				"grade"
+			],
+			[
+				"re",
+				"read_csv"
+			],
+			[
+				"str",
+				"strptime"
+			],
+			[
+				"to_s",
+				"to_csv"
+			],
+			[
+				"grade",
+				"grade_C"
+			],
+			[
+				"Sec",
+				"SECONDS_IN_A_YEAR"
+			],
+			[
+				"SEC",
+				"SECONDS_IN_A_DAY"
+			],
+			[
+				"lo",
+				"loan_status"
+			],
+			[
+				"retu",
+				"returns_check"
+			],
+			[
+				"data",
+				"data_check"
+			],
+			[
+				"matu",
+				"maturity_datetime"
+			],
+			[
+				"impo",
+				"import_dates_only"
+			],
+			[
+				"read",
+				"read_csv"
+			],
+			[
+				"pam",
+				"payments"
+			],
+			[
+				"notionals",
+				"notionals"
+			],
+			[
+				"portf",
+				"portfolio_notional"
+			],
+			[
+				"po",
+				"portfolio_notional"
+			],
+			[
+				"inve",
+				"investment_filter"
+			],
+			[
+				"port",
+				"portfolio_notional"
+			],
+			[
+				"inves",
+				"investment_returns"
+			],
+			[
+				"work",
+				"working_directory"
+			],
+			[
+				"invet",
+				"investment_returns"
+			],
+			[
+				"investment",
+				"investment_filter"
+			],
+			[
+				"loan",
+				"loan_portfolio"
+			],
+			[
+				"porfto",
+				"portfolio_notional"
+			],
+			[
+				"defaulted",
+				"defaulted_in_interval"
+			],
+			[
+				"lay",
+				"last_pymnt_datetime"
+			],
+			[
+				"defaulte",
+				"defaulted_loans"
+			],
+			[
+				"por",
+				"portfolio_total_payment"
+			],
+			[
+				"vecto",
+				"vector_coupon_payments"
+			],
+			[
+				"vecor",
+				"vector_coupon_payments"
+			],
+			[
+				"SEOn",
+				"SECONDS_IN_A_YEAR"
+			],
+			[
+				"perio",
+				"period_end"
+			],
+			[
+				"per",
+				"period_start"
+			],
+			[
+				"ou",
+				"loan_outstanding_notional"
+			],
+			[
+				"lastp",
+				"last_pymnt_datetime"
+			],
+			[
+				"laste",
+				"last_pymnt_datetime"
+			],
+			[
+				"reco",
+				"recoveries"
+			],
+			[
+				"period",
+				"period_start"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "TODO",
+			"settings":
+			{
+				"buffer_size": 76,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/js/graphs.js",
+			"settings":
+			{
+				"buffer_size": 7039,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/index.html",
+			"settings":
+			{
+				"buffer_size": 3642,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 219.0,
+		"selected_items":
+		[
+			[
+				"repip",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"reipi",
+				"Package Control: Create Binary Package File"
+			],
+			[
+				"repi",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"snifor",
+				"Snippet: For Loop"
+			],
+			[
+				"sniloop",
+				"Snippet: For Loop"
+			],
+			[
+				"snif",
+				"Snippet: Function"
+			],
+			[
+				"scrap",
+				"Snippet: scrap"
+			],
+			[
+				"crap",
+				"Snippet: scrap"
+			],
+			[
+				"Snippet: scr",
+				"Snippet: scrap"
+			],
+			[
+				"scra",
+				"Snippet: scrap"
+			],
+			[
+				"reply",
+				"SublimeREPL: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimreply",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"repl",
+				"SublimeREPL: Python"
+			],
+			[
+				"package control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 132.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/codebase/git/TheGuarantors/settings.json",
+		"/C/codebase/git/TheGuarantors/mup.json",
+		"/C/codebase/git/LC_dataviz/app.py",
+		"/C/codebase/git/LC_dataviz/index.html",
+		"/C/codebase/git/playing_with_images.py",
+		"/C/codebase/git/web/GraphController/leBonCoin.py",
+		"/C/codebase/git/LC/lc_test_filters_2.py",
+		"/C/codebase/git/LC/lc_test_filters.py",
+		"/C/codebase/git/LC/lc_data_prep.py",
+		"/C/codebase/git/TheGuarantors/WebApp/settings.json",
+		"/C/codebase/git/LC/lendingClubWebsite/plan",
+		"/C/codebase/git/LC/lc_exploration.py",
+		"/C/codebase/git/LC/mensualite",
+		"/C/codebase/git/LC/LC.sublime-workspace",
+		"/C/codebase/git/LC/LC.sublime-project",
+		"/C/codebase/git/LC/PROJECT_PLAN",
+		"/C/codebase/git/LC/lendingClubWebsite/backtester/migrations/__init__.py",
+		"/C/codebase/git/LC/mysite/mysite/__init__.py",
+		"/C/codebase/git/LC/APP",
+		"/C/codebase/git/LC/lc_backtester_utils.py",
+		"/C/codebase/git/LC/lc_default_proba_modeling.py",
+		"/C/Users/Clement/Downloads/applicationForm.html",
+		"/C/codebase/git/LC/guarantr.py",
+		"/C/codebase/git/LC/myUtils/utils_stats.py",
+		"/C/codebase/git/LC/default_proba_modeling.py",
+		"/C/codebase/git/playing_with_images",
+		"/C/codebase/git/LC/test_lc_filters_2.py",
+		"/C/Users/Clement/Desktop/ripPropertyManagers.py",
+		"/C/codebase/git/LC/kaggle.py",
+		"/C/Users/Clement/AppData/Roaming/Sublime Text 2/Packages/User/scrap.sublime-snippet",
+		"/C/codebase/git/Crawling/crowling_street_easy.py",
+		"/C/codebase/git/LC/new_york_credit_score.py",
+		"/C/codebase/git/LC/lc_backtester.pyc",
+		"/C/codebase/git/LC/test_lc_filters.py",
+		"/C/codebase/git/LC/data_prep_lc.py",
+		"/C/Users/Clement/Desktop/We start with a pragmatical risk evaluation",
+		"/C/codebase/git/LC/lc_feature_selection.py",
+		"/C/codebase/git/LC/lendingClubWebsite/lendingClubWebsiteTests.py",
+		"/C/codebase/git/LC/lendingClubWebsite/backtester/views.py",
+		"/C/codebase/git/LC/lendingClubWebsite/backtester/urls.py",
+		"/C/codebase/git/LC/lendingClubWebsite/lendingClubWebsite/urls.py",
+		"/C/codebase/git/LC/mysite/polls/urls.py",
+		"/C/codebase/git/LC/mysite/polls/templates/polls/# set up a simple server with no model and no data",
+		"/C/codebase/git/LC/lendingClubWebsite/lendingClubWebsite/settings.py",
+		"/C/codebase/git/LC/mysite/polls/templates/polls/results.html",
+		"/C/codebase/git/LC/mysite/polls/templates/polls/index.html",
+		"/C/codebase/git/LC/mysite/polls/templates/polls/details.html",
+		"/C/Users/Clement/Anaconda/Scripts/django-admin.py",
+		"/C/codebase/git/LC/mysite/polls/views.py",
+		"/C/codebase/git/LC/mysite/polls/models.py",
+		"/C/codebase/git/LC/mysite/mysite/settings.py",
+		"/C/codebase/git/LC/mysite/mysite/urls.py",
+		"/C/codebase/git/LC/mysite/polls/migrations/0001_initial.py",
+		"/C/codebase/git/LC/sublimeSetup",
+		"/C/Users/Clement/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Clement/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Program Files/MySQL/MySQL Server 5.6/data/Pio.err",
+		"/C/Program Files/MySQL/MySQL Server 5.6/data/ib_logfile0",
+		"/C/codebase/data/bitcoin/BitNodes2.sql",
+		"/C/Users/Clement/Google Drive/Orga Perso/Vision Strategique",
+		"/C/Users/Clement/Google Drive/Orga Perso/Clement - To Do",
+		"/C/Users/Clement/Desktop/OrgaPerso.bat",
+		"/C/Users/Clement/Google Drive/Clement - To Do",
+		"/C/Users/Clement/Google Drive/Insurance Key Words",
+		"/C/codebase/git/LC/test_strategies.py",
+		"/C/codebase/git/LC/lc_backtester.py",
+		"/C/codebase/git/LC/backtest2.py",
+		"/C/Users/Clement/Google Drive/To-Do-TODAY",
+		"/C/codebase/git/LC/myUtils/utils_datetime.py",
+		"/C/Users/Clement/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+		"/C/Users/Clement/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/config/Python/Main.sublime-menu-BACK.sublime-menu",
+		"/C/Users/Clement/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/config/Python/ipy_repl.py",
+		"/C/Users/Clement/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/config/Python/Default.sublime-commands",
+		"/C/codebase/git/LC/test_strategies",
+		"/C/Users/Clement/AppData/Roaming/Sublime Text 2/Packages/User/testMacro.sublime-macro",
+		"/C/Users/Clement/AppData/Roaming/Sublime Text 2/Packages/User/test2.sublime-macro",
+		"/C/Users/Clement/AppData/Roaming/Sublime Text 2/Packages/User/test3.sublime-macro",
+		"/C/codebase/git/LC/test",
+		"/C/Users/Clement/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/Default (Windows).sublime-keymap",
+		"/C/Users/Clement/Google Drive/Vision Strategique",
+		"/C/Codebase/git/LC/myUtils/utils_stats.py",
+		"/C/Codebase/git/LC/myUtils/utils_seq.py",
+		"/C/Codebase/git/LC/myUtils/utils_gen.py",
+		"/C/Codebase/git/LC/myUtils/utils_datetime.py",
+		"/C/Codebase/git/LC/myUtils/__init__.py",
+		"/C/codebase/git/LC/utils/__init__.py",
+		"/C/codebase/git/LC/myUtils/__init__.py",
+		"/C/Users/Clement/Google Drive/Bitcoin/bitcoin101",
+		"/C/Users/Clement/AppData/Roaming/Sublime Text 2/Packages/Default/exec.py",
+		"/C/Users/Clement/AppData/Roaming/Sublime Text 2/Packages/Python/Python.sublime-build",
+		"/C/Codebase/sublimeSetup",
+		"/C/Codebase/git/LC/data_prep_lc.py",
+		"/C/Codebase/git/LC/guarantr.py",
+		"/C/Codebase/git/LC/lc_backtester.py",
+		"/C/Codebase/utils/utils_datetime.py",
+		"/C/Codebase/lc_backtester.py",
+		"/C/Codebase/guarantr.py",
+		"/C/Codebase/data_prep_lc.py",
+		"/C/codebase/mensualite",
+		"/C/codebase/lc_feature_selection.py",
+		"/C/codebase/lc_backtester",
+		"/C/Codebase/utils/__init__.py",
+		"/C/Codebase/utils/utils_gen.py",
+		"/C/codebase/utils/__init__.py",
+		"/C/codebase/data_prep_lc.py",
+		"/C/codebase/utils/utils_func_prog.py",
+		"/C/Codebase/utils.py",
+		"/C/Codebase/utils/__init__.py.txt",
+		"/C/Users/Clement/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Clement/Google Drive/Talk with Jose",
+		"/C/Users/Clement/Google Drive/Cold Call Captive",
+		"/C/Users/Clement/Google Drive/Talk Stephanie",
+		"/C/Users/Clement/Google Drive/WhiteMountain",
+		"/C/Users/Clement/Google Drive/Talk Pierre Vaysse"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"returns_chart",
+			"month",
+			"month_dim",
+			"group",
+			"returns",
+			"chart",
+			"numProjectsByPovertyLevel",
+			"timeChart",
+			"makeGraphs",
+			"statesJson",
+			"projectsJson",
+			"donorschoose/projects",
+			"+\"#\"+",
+			"loan_outstanding_notional",
+			"id",
+			"ID",
+			"purpose",
+			"Purpose",
+			"data",
+			"datetime",
+			"outstanding_loans",
+			"indicator_by_tier",
+			"data.annual_inc",
+			"default_rate_12M_per_fico",
+			"##",
+			"save_path",
+			"default_rate_12M_per_fico",
+			"default_rate_per_fico",
+			"parse_float",
+			"data",
+			"average_rate",
+			"choice_set",
+			"choice_et",
+			"MOB",
+			"****\n",
+			"data_check",
+			"group",
+			"groupby",
+			"outst",
+			"outstanding",
+			"outstanding_loans",
+			"data",
+			"\"],",
+			"cwd",
+			"open",
+			"loan_portfolio",
+			"defaulted",
+			"defualt",
+			"timeline",
+			"defaulted",
+			"charged_off_or_default",
+			"loand_port",
+			"loand_portfolio",
+			"maturity",
+			"DA",
+			"filter",
+			"loan_population",
+			"loan_popul",
+			"renters_default_rate",
+			"default_rate_controlled_by_FICO",
+			"indicator_by_tier",
+			"default_rate_controlled_by_FICO",
+			"indicator_by_tier",
+			"default_rate_per_fico",
+			"outstanding_loans",
+			"series_window",
+			"quarter_defaults",
+			"series_window",
+			"end_date",
+			"start_date",
+			"theme"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"group",
+			","
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "TODO",
+					"settings":
+					{
+						"buffer_size": 76,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								76
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "static/js/graphs.js",
+					"settings":
+					{
+						"buffer_size": 7039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 353.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/index.html",
+					"settings":
+					{
+						"buffer_size": 3642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								560,
+								560
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.704848772013,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"lc_b",
+				"lc_backtester_utils.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 100.0,
+	"status_bar_visible": true
+}

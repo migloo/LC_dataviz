@@ -1,0 +1,20 @@
+
+
+
+    data.forEach(function (d) {
+        d.dd = dateFormat.parse(d.quarter);
+        d.month = d3.time.month(d.dd); // pre-calculate month for better performance
+        d.notionals = isNaN(parseFloat(d.loans_outstanding_notionals)) ? 0.0 : parseFloat(d.loans_outstanding_notionals);
+        d.returns = isNaN(parseFloat(d.average_returns)) ? 0.0 : parseFloat(d.average_returns)*12.0;
+        d.newly_issued = isNaN(parseFloat(d.newly_issued)) ? 0.0 : parseFloat(d.newly_issued);
+        v = d.mask_id.split("#");
+        d.score_delinq_2yrs	= v[0];
+        d.score_int_rate	= v[1];
+        d.score_term= v[2];
+        d.score_inq_last_6mths	= v[3];
+        d.score_emp_length	= v[4];
+        d.score_purpose	= v[5];
+        d.score_pub_rec	= v[6];
+        d.score_home_ownership	= v[7];
+        d.score_annual_inc = v[8];
+    });

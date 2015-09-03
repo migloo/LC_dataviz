@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="./static/lib/css//bootstrap.min.css">
+  <link rel="stylesheet" href="./static/lib/css/keen-dashboards.css">
+  <link rel="stylesheet" href="./static/lib/css/dc.css">
+  <link rel="stylesheet" href="./static/css/custom.css">
+</head>
+<body class="application">
+
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./">Lending Club Investment Returns</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Portfolio Returns
+          </div>
+          <div class="chart-stage">
+            <div id="returns-chart"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Notes Outstanding Notionals On The Platform
+          </div>
+          <div class="chart-stage">
+            <div id="notionals-chart"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Delinquencies In The Past 2 Years
+          </div>
+          <div class="chart-stage">
+            <div id="delinq-2yrs-chart"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Employement Length
+          </div>
+          <div class="chart-stage">
+            <div id="emp-length-chart"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Home Ownership
+          </div>
+          <div class="chart-stage">
+            <div id="home-ownership-chart"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Credit Inquiries In The Last 6 Months
+          </div>
+          <div class="chart-stage">
+            <div id="inq-last-6mths-chart"></div>
+          </div>
+        </div>
+      </div>    
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Annual Income
+          </div>
+          <div class="chart-stage">
+            <div id="annual-inc-chart"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Public Records
+          </div>
+          <div class="chart-stage">
+            <div id="pub-rec-chart"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Loan Purpose
+          </div>
+          <div class="chart-stage">
+            <div id="purpose-chart"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Loan Term
+          </div>
+          <div class="chart-stage">
+            <div id="term-chart"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Notes Interest Rate
+          </div>
+          <div class="chart-stage">
+            <div id="int-rate-chart"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            average-returns
+          </div>
+          <div class="chart-stage">
+            <div id="average-returns"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            newly-issued
+          </div>
+          <div class="chart-stage">
+            <div id="newly-issued"></div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+
+  </div>
+
+  <script src="./static/lib/js/jquery.min.js"></script>
+  <script src="./static/lib/js/bootstrap.min.js"></script>
+  <script src="./static/lib/js/crossfilter.js"></script>
+  <script src="./static/lib/js/d3.js"></script>
+  <script src="./static/lib/js/dc.js"></script>
+  <script src="./static/lib/js/queue.js"></script>
+
+
+  <script src="./static/lib/js/keen.min.js"></script>
+  <script src='./static/js/graphs.js' type='text/javascript'></script>
+</body>
+</html>
