@@ -53,7 +53,7 @@ function makeGraphs(error, data) {
 	var score_int_rate_group = score_int_rate_dim.group().reduceSum(get_notional);
 	var notionals_group = month_dim.group().reduceSum(get_notional);
 
-	// var returns_group = month_dim.group().reduceSum(get_average_return);
+	var returns_group = month_dim.group().reduceSum(get_average_return);
     var returns_group = month_dim.group().reduce(
         /* callback for when data is added to the current filter results */
         function (p, v) {
@@ -75,7 +75,7 @@ function makeGraphs(error, data) {
         function () {
             return {
                 count: 0,
-                notionals: 0,
+                notionals: 0.000001,
                 dollar_returned: 0,
                 returns: 0
             };

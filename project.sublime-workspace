@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"new",
+				"newly_issued"
+			],
+			[
+				"gro",
+				"groupAll"
+			],
+			[
+				"mont",
+				"month_dim"
+			],
+			[
+				"return_",
+				"returns_group"
+			],
+			[
 				"ex",
 				"expand_key"
 			],
@@ -280,10 +296,6 @@
 				"returns"
 			],
 			[
-				"gro",
-				"DataFrame.groupby"
-			],
-			[
 				"36",
 				"362754"
 			],
@@ -502,18 +514,6 @@
 			[
 				"lastp",
 				"last_pymnt_datetime"
-			],
-			[
-				"laste",
-				"last_pymnt_datetime"
-			],
-			[
-				"reco",
-				"recoveries"
-			],
-			[
-				"period",
-				"period_start"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "TODO",
 			"settings":
 			{
-				"buffer_size": 76,
+				"buffer_size": 832,
 				"line_ending": "Windows"
 			}
 		},
@@ -531,7 +531,15 @@
 			"file": "static/js/graphs.js",
 			"settings":
 			{
-				"buffer_size": 7039,
+				"buffer_size": 8269,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.py",
+			"settings":
+			{
+				"buffer_size": 1081,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,7 +547,7 @@
 			"file": "templates/index.html",
 			"settings":
 			{
-				"buffer_size": 3642,
+				"buffer_size": 4818,
 				"line_ending": "Unix"
 			}
 		}
@@ -759,6 +767,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"var ",
+			"var",
+			"date",
+			"average_returns_group",
+			"average_returns",
+			"newly_issued_group",
+			"newly_issued_number",
+			"returns_group",
+			"get_average_return",
+			"js",
+			"month_dim",
+			"date",
+			"score_annual_inc_group",
+			"score_int_rate_group",
+			"score_int_rate_chart",
+			"int-rate-chart",
+			"score_int_rate_chart",
+			"returns_chart",
+			"groupAll",
+			"notionals_data",
+			"month_dim",
+			"notionals_group",
 			"returns_chart",
 			"month",
 			"month_dim",
@@ -837,6 +867,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"/* var */",
+			"/*var*/",
 			"group",
 			","
 		],
@@ -849,7 +881,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -857,15 +889,15 @@
 					"file": "TODO",
 					"settings":
 					{
-						"buffer_size": 76,
+						"buffer_size": 832,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								76,
-								76
+								832,
+								832
 							]
 						],
 						"settings":
@@ -1063,7 +1095,9 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1076,15 +1110,15 @@
 					"file": "static/js/graphs.js",
 					"settings":
 					{
-						"buffer_size": 7039,
+						"buffer_size": 8269,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7,
-								7
+								931,
+								931
 							]
 						],
 						"settings":
@@ -1286,25 +1320,142 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 353.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "templates/index.html",
+					"file": "app.py",
 					"settings":
 					{
-						"buffer_size": 3642,
+						"buffer_size": 1081,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								560,
-								560
+								485,
+								485
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 82.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/index.html",
+					"settings":
+					{
+						"buffer_size": 4818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4328,
+								4328
 							]
 						],
 						"settings":
@@ -1507,7 +1658,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2334.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1553,7 +1704,7 @@
 		"rows":
 		[
 			0.0,
-			0.704848772013,
+			0.914821124361,
 			1.0
 		]
 	},
