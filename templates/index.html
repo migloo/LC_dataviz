@@ -1,182 +1,290 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <title>Dashboard</title>
-  <link rel="stylesheet" href="./static/lib/css//bootstrap.min.css">
-  <link rel="stylesheet" href="./static/lib/css/keen-dashboards.css">
-  <link rel="stylesheet" href="./static/lib/css/dc.css">
-  <link rel="stylesheet" href="./static/css/custom.css">
-</head>
-<body class="application">
+	<head>
+		<title>Lending Club Dataviz</title>
+		<meta charset="utf-8">
+		<!-- <meta name="description" content="Key Lime Responsive HTML5/CSS3 Template from angelostudio.net"> -->
+		<!-- <meta name="author" content="ANGELOSTUDIO.NET"> -->
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Merriweather:400,400italic,700italic" rel="stylesheet" type="text/css">
+		<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="./">Lending Club Investment Returns</a>
-      </div>
-    </div>
-  </div>
+		<link rel="stylesheet" href="./static/lib/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./static/lib/css/keen-dashboards.css">
+		<link rel="stylesheet" href="./static/lib/css/dc.css">
+		<link rel="stylesheet" href="./static/lib/css/icons.css">
+		<link rel="stylesheet" href="./static/lib/css/animate.min.css">
+		<link rel="stylesheet" href="./static/css/style.css">
+		<link rel="stylesheet" href="./static/css/custom.css">
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="chart-wrapper">
-          <div class="chart-title">
-            Portfolio Returns
-          </div>
-          <div class="chart-stage">
-            <div id="returns-chart"></div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="chart-wrapper">
-          <div class="chart-title">
-            Notes Outstanding Notionals On The Platform
-          </div>
-          <div class="chart-stage">
-            <div id="notionals-chart"></div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <div class="row">
-      <div class="col-sm-3">
-        <div class="chart-wrapper">
-          <div class="chart-title">
-            Delinquencies In The Past 2 Years
-          </div>
-          <div class="chart-stage">
-            <div id="delinq-2yrs-chart"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-3">
-        <div class="chart-wrapper">
-          <div class="chart-title">
-            Employement Length
-          </div>
-          <div class="chart-stage">
-            <div id="emp-length-chart"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-3">
-        <div class="chart-wrapper">
-          <div class="chart-title">
-            Home Ownership
-          </div>
-          <div class="chart-stage">
-            <div id="home-ownership-chart"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-3">
-        <div class="chart-wrapper">
-          <div class="chart-title">
-            Credit Inquiries In The Last 6 Months
-          </div>
-          <div class="chart-stage">
-            <div id="inq-last-6mths-chart"></div>
-          </div>
-        </div>
-      </div>    
-    </div>
-
-    <div class="row">
-      <div class="col-sm-2">
-        <div class="chart-wrapper">
-          <div class="chart-title">
-            Annual Income
-          </div>
-          <div class="chart-stage">
-            <div id="annual-inc-chart"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-2">
-        <div class="chart-wrapper">
-          <div class="chart-title">
-            Public Records
-          </div>
-          <div class="chart-stage">
-            <div id="pub-rec-chart"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-2">
-        <div class="chart-wrapper">
-          <div class="chart-title">
-            Loan Purpose
-          </div>
-          <div class="chart-stage">
-            <div id="purpose-chart"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-2">
-        <div class="chart-wrapper">
-          <div class="chart-title">
-            Loan Term
-          </div>
-          <div class="chart-stage">
-            <div id="term-chart"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-2">
-        <div class="chart-wrapper">
-          <div class="chart-title">
-            Notes Interest Rate
-          </div>
-          <div class="chart-stage">
-            <div id="int-rate-chart"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-2">
-        <div class="chart-wrapper">
-          <div class="chart-title">
-            average-returns
-          </div>
-          <div class="chart-stage">
-            <div id="average-returns"></div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-2">
-        <div class="chart-wrapper">
-          <div class="chart-title">
-            newly-issued
-          </div>
-          <div class="chart-stage">
-            <div id="newly-issued"></div>
-          </div>
-        </div>
-      </div>
-    
-    </div>
-
-  </div>
-
-  <script src="./static/lib/js/jquery.min.js"></script>
-  <script src="./static/lib/js/bootstrap.min.js"></script>
-  <script src="./static/lib/js/crossfilter.js"></script>
-  <script src="./static/lib/js/d3.js"></script>
-  <script src="./static/lib/js/dc.js"></script>
-  <script src="./static/lib/js/queue.js"></script>
+<!-- 		<link rel="stylesheet" href="./static/lib/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./static/lib/css/keen-dashboards.css">
+		<link rel="stylesheet" href="./static/lib/css/dc.css">
+		<link rel="stylesheet" href="./static/lib/css/custom.css"> -->
 
 
-  <script src="./static/lib/js/keen.min.js"></script>
-  <script src='./static/js/graphs.js' type='text/javascript'></script>
-</body>
+		<link rel="shortcut icon" href="img/ico/32.png" sizes="32x32" type="image/png"/>
+		<link rel="apple-touch-icon-precomposed" href="img/ico/60.png" type="image/png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/72.png" type="image/png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/ico/120.png" type="image/png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/ico/152.png" type="image/png"/>
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body id="home">
+		<div id="wrap">
+			<div id="main-nav" class="">
+				<div class="container">
+					<div class="nav-header">
+							<a class="nav-brand" href="index.html">100m deep</a>
+						</div>
+				</div>
+			</div>
+					
+			<section id="hero" class="light-typo">
+				<div id="cover-image" class="image-bg2 animated fadeIn"></div>
+				<div class="container welcome-content">
+					<div class="middle-text">
+						<h1>A dive into Lending Club data</h1>
+						<h2>In search for higher returns</h2>
+					</div>	
+				</div>
+			</section>
+
+			<div class="container content">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1">
+							
+							<div class="post-date">
+								Sept. 10, 2015 
+							</div>		
+							<!-- <h1>We don't have a brig</h1> -->
+							<div class="post-intro">We tested more than 3,500 investment strategies and put together a data-visualization: see how much each returns in average, through time, and how much demand there is from borrowers with each strategy characteristics.</div>
+							<div class="">Pipe: <code> LendingClub Data |> Pandas |> Crossfilter.js, D3.js, DC.js</code></div>
+
+
+							<h2>P2P lending essentials</h2>
+							<p>If you’ve never looked into peer-to-peer lending, you’ve at least probably heard of it. People lending directly to other people through online platforms such as LendingClub or Prosper. Borrowers get loans to refinance their credit cards, consolidate their debt or finance a home improvement at a better rate than their banks would give them. Lenders get a return on their investment that is typically much better than traditional Certificate of Deposit or saving accounts.</p>
+							<p>As an investor, you should build a portfolio extending small loans to a large number of individuals to benefit from diversification. Every month, you’ll collect interests and notional repayments from people you’ve lent to, and occasionally you’ll suffer losses from people who defaulted on their payments. Usually, the losses will be less than the interest payments and you’ll be left with a good positive return on your investment.</p>
+
+
+							<p>When defining your investment strategy on the lending club platform you should essentially care about 4 things:</p>
+							<ul>
+								<li> How much you’re getting to invest: that’s your <code>expected return</code>.</li>
+								<li> How safe your money is: that’s your risk i.e. the uncertainty around these returns.</li>
+								<li> How long your money is committed for:  that’s the maturity of your investment.</li>
+								<li> How long it will take to find borrowers that match your investment criteria.</li>
+							</ul>
+							<p> The Lending Club issues a grading for each loan and allows you to select the people you lend to according to this grade and some additional geographical, credit and income characteristics</p>
+							<p> You can play with the dataviz below to see how each strategy performed through the last few years: how much does it return in average, how does it perform through time, and how much demand there is from borrowers with your strategy characteristics.</p>
+
+
+							<h2>Exploring The Data</h2>
+							  <div class="container-fluid">
+							    <div class="row">
+
+							      <div class="col-sm-12">
+							        <div class="chart-wrapper">
+							          <div class="chart-title">
+							            Portfolio Returns
+							          </div>
+							          <div class="chart-stage">
+							            <div id="returns-chart"></div>
+							          </div>
+							        </div>
+							      </div>
+
+							    </div>
+							    <div class="row">
+							      <div class="col-sm-4">
+							        <div class="chart-wrapper">
+							          <div class="chart-title">
+							            average-returns
+							          </div>
+							          <div class="chart-stage">
+							            <div id="average-returns"></div>
+							          </div>
+							        </div>
+							      </div>
+
+							   	  <div class="col-sm-4">
+							        <div class="chart-wrapper">
+							          <div class="chart-title">
+							            Loan Grade
+							          </div>
+							          <div class="chart-stage">
+							            <div id="int-rate-chart"></div>
+							          </div>
+							        </div>
+							      </div>
+
+
+
+							      <div class="col-sm-4">
+							        <div class="chart-wrapper">
+							          <div class="chart-title">
+							            newly-issued
+							          </div>
+							          <div class="chart-stage">
+							            <div id="newly-issued"></div>
+							          </div>
+							        </div>
+							      </div> 
+							    </div>
+
+
+							    <div class="row">
+							      <div class="col-sm-3">
+							        <div class="chart-wrapper">
+							          <div class="chart-title">
+							            Recent Delinquencies
+							          </div>
+							          <div class="chart-stage">
+							            <div id="delinq-2yrs-chart"></div>
+							          </div>
+							        </div>
+							      </div>
+
+							      <div class="col-sm-3">
+							        <div class="chart-wrapper">
+							          <div class="chart-title">
+							            Employement Length
+							          </div>
+							          <div class="chart-stage">
+							            <div id="emp-length-chart"></div>
+							          </div>
+							        </div>
+							      </div>
+
+							      <div class="col-sm-3">
+							        <div class="chart-wrapper">
+							          <div class="chart-title">
+							            Home Ownership
+							          </div>
+							          <div class="chart-stage">
+							            <div id="home-ownership-chart"></div>
+							          </div>
+							        </div>
+							      </div>
+
+							      <div class="col-sm-3">
+							        <div class="chart-wrapper">
+							          <div class="chart-title">
+							            Recent Credit Inquiries
+							          </div>
+							          <div class="chart-stage">
+							            <div id="inq-last-6mths-chart"></div>
+							          </div>
+							        </div>
+							      </div>    
+							    </div>
+
+							    <div class="row">
+							      <div class="col-sm-3">
+							        <div class="chart-wrapper">
+							          <div class="chart-title">
+							            Annual Income
+							          </div>
+							          <div class="chart-stage">
+							            <div id="annual-inc-chart"></div>
+							          </div>
+							        </div>
+							      </div>
+
+							      <div class="col-sm-3">
+							        <div class="chart-wrapper">
+							          <div class="chart-title">
+							            Public Records
+							          </div>
+							          <div class="chart-stage">
+							            <div id="pub-rec-chart"></div>
+							          </div>
+							        </div>
+							      </div>
+
+							      <div class="col-sm-3">
+							        <div class="chart-wrapper">
+							          <div class="chart-title">
+							            Loan Purpose
+							          </div>
+							          <div class="chart-stage">
+							            <div id="purpose-chart"></div>
+							          </div>
+							        </div>
+							      </div>
+
+							      <div class="col-sm-3">
+							        <div class="chart-wrapper">
+							          <div class="chart-title">
+							            Loan Term
+							          </div>
+							          <div class="chart-stage">
+							            <div id="term-chart"></div>
+							          </div>
+							        </div>
+							      </div>
+
+
+
+ 
+
+							    </div>
+							  </div>
+							<h2>Some Strategies I like and some I don’t’ like</h2>
+							<p>I like a lot lending to people who had 1 or more delinquency. I limit myself to grades B,C,D and E. Historical returns are above 9%, stable through time. There has been loan for 44M worth issued through the plaftform in the last quarter which is good enough.</p>
+							<p>I also like lending to people who own their home, and have not had any credit inquiry. Returns are very consistent through time. Supply is good, 150M$ on the platform last quarter. For an extra ‘kick’ remove the ‘A’ grade from the filter. It’s gets me up to 7.85%.</p>
+							<p>In general, I don’t like ‘A’ graded loans too much. Their average return is of 4.3%. That’s much lower than the average market. Even though that’s probably the only category that did not suffer too much during the crisis, I find that the premium to pay for this lower risk is too high.</p>
+						</div>
+					</div>
+				</div>
+
+				<footer>
+					<div class="footer">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-4 col-md-4 footer-widget clearfix">
+									<h3>Tags</h3>
+									<ul class="tags">
+										<li><a href="#">D3.js</a></li>
+										<li><a href="#">Crossfilter.js</a></li>
+										<li><a href="#">DataViz</a></li>
+										<li><a href="#">LendingClub</a></li>
+										<li><a href="#">DC.js</a></li>
+										<li><a href="#">Python</a></li>
+										<li><a href="#">Pandas</a></li>
+										<li><a href="#">Investment Strategy</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="copyright">
+						<div class="container">
+							<p class="pull-left">This site is not affiliated with Lending Club. This site does not provide investment advice. Investment decisions are made by users at their own risk</p>
+<!-- 							<ul class="social-links pull-right">
+								<li><a href="#link"><i class="icon-twitter"></i></a></li>
+								<li><a href="#link"><i class="icon-facebook"></i></a></li>
+								<li><a href="#link"><i class="icon-googleplus"></i></a></li>
+							</ul> -->
+						</div>
+					</div>
+				</footer>
+		</div>		
+
+		<script type="text/javascript" src="./static/lib/js/jquery.min.js"></script>
+		<script type="text/javascript" src="./static/lib/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="./static/lib/js/placeholders.min.js"></script>
+		<script type="text/javascript" src="./static/lib/js/wow.min.js"></script>
+		<script type="text/javascript" src="./static/lib/js/custom.js"></script>
+		<script type="text/javascript" src="./static/lib/js/crossfilter.js"></script>
+		<script type="text/javascript" src="./static/lib/js/d3.js"></script>
+		<script type="text/javascript" src="./static/lib/js/dc.js"></script>
+		<script type="text/javascript" src="./static/lib/js/queue.js"></script>
+  	<script type="text/javascript" src="./static/lib/js/keen.min.js"></script>
+  	<script type="text/javascript" src="./static/js/graphs.js"></script>
+		
+	</body>
 </html>

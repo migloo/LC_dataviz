@@ -10,3 +10,24 @@
     fill: black;
     font-size: 12px;
 }
+
+.chart-wrapper {
+	border:none;
+}
+
+.chart-title{
+	text-align: center;
+}
+
+svg{
+	display:block;
+	margin:auto;
+}
+div.dc-chart {
+    float: none;
+    text-align: center;
+}
+
+.number-display{
+	font-size: 60px;
+}

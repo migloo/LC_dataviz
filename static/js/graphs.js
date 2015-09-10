@@ -125,64 +125,92 @@ function makeGraphs(error, data) {
 	var score_purpose_chart	= dc.pieChart("#purpose-chart");
 	var score_term_chart = dc.pieChart("#term-chart");
 	var score_int_rate_chart = dc.pieChart("#int-rate-chart");
+
 	var returns_chart = dc.lineChart("#returns-chart");
-	var notionals_chart = dc.lineChart("#notionals-chart");
+	// var notionals_chart = dc.lineChart("#notionals-chart");
 	var average_returns_number = dc.numberDisplay("#average-returns");
 	var newly_issued_number = dc.numberDisplay("#newly-issued");
 
 
 	score_delinq_2yrs_chart
+		.width(130)
+        .height(130)
 		.dimension(score_delinq_2yrs_dim)
 		.group(score_delinq_2yrs_group)
-		.innerRadius(50)
+		.radius(60)
+		.innerRadius(30)
 		.transitionDuration(500);
 
 	score_emp_length_chart
+		.width(130)
+        .height(130)
 		.dimension(score_emp_length_dim)
 		.group(score_emp_length_group)
-		.innerRadius(50)
+		.radius(60)
+		.innerRadius(30)
 		.transitionDuration(500);
 
 	score_home_ownership_chart
+		.width(130)
+        .height(130)
 		.dimension(score_home_ownership_dim)
 		.group(score_home_ownership_group)
-		.innerRadius(50)
+		.radius(60)
+		.innerRadius(30)
 		.transitionDuration(500);
 
 	score_inq_last_6mths_chart
+		.width(130)
+        .height(130)
 		.dimension(score_inq_last_6mths_dim)
 		.group(score_inq_last_6mths_group)
-		.innerRadius(50)
+		.radius(60)
+		.innerRadius(30)
 		.transitionDuration(500);
 
 	score_annual_inc_chart
+		.width(130)
+        .height(130)
 		.dimension(score_annual_inc_dim)
 		.group(score_annual_inc_group)
-		.innerRadius(50)
+		.radius(60)
+		.innerRadius(30)
 		.transitionDuration(500);
 
 	score_pub_rec_chart
+		.width(130)
+        .height(130)
 		.dimension(score_pub_rec_dim)
 		.group(score_pub_rec_group)
-		.innerRadius(50)
+		.radius(60)
+		.innerRadius(30)
 		.transitionDuration(500);
 
 	score_purpose_chart
+		.width(130)
+        .height(130)
 		.dimension(score_purpose_dim)
 		.group(score_purpose_group)
-		.innerRadius(50)
+		.radius(60)
+		.innerRadius(30)
 		.transitionDuration(500);
 
 	score_term_chart
+		.width(130)
+        .height(130)
 		.dimension(score_term_dim)
 		.group(score_term_group)
-		.innerRadius(50)
+		.radius(60)
+		.innerRadius(30)
 		.transitionDuration(500);
 
 	score_int_rate_chart
 		.dimension(score_int_rate_dim)
 		.group(score_int_rate_group)
-		.innerRadius(50)
+		.width(130)
+        .height(130)
+		.radius(60)
+		.innerRadius(30)
 		.transitionDuration(500);
 
 	returns_chart
@@ -196,14 +224,14 @@ function makeGraphs(error, data) {
 		.x(d3.time.scale().domain([new Date(2008, 0, 1), new Date(2015, 5, 30)]))
 		.y(d3.scale.linear().domain([-0.02, 0.15]));
 
-    notionals_chart
-		.renderArea(true)
-        .width(800)
-        .height(200)
-        .brushOn(false)
-		.dimension(month_dim)
-		.group(notionals_group)
-		.x(d3.time.scale().domain([new Date(2007, 6, 1), new Date(2015, 5, 30)]));
+  //   notionals_chart
+		// .renderArea(true)
+  //       .width(800)
+  //       .height(200)
+  //       .brushOn(false)
+		// .dimension(month_dim)
+		// .group(notionals_group)
+		// .x(d3.time.scale().domain([new Date(2007, 6, 1), new Date(2015, 5, 30)]));
 
 	average_returns_number
 		.group(average_returns_group)
