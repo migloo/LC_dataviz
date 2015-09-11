@@ -3,11 +3,8 @@
 	<head>
 		<title>Lending Club Dataviz</title>
 		<meta charset="utf-8">
-		<!-- <meta name="description" content="Key Lime Responsive HTML5/CSS3 Template from angelostudio.net"> -->
-		<!-- <meta name="author" content="ANGELOSTUDIO.NET"> -->
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Merriweather:400,400italic,700italic" rel="stylesheet" type="text/css">
-		<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 
 		<link rel="stylesheet" href="./static/lib/css/bootstrap.min.css">
 		<link rel="stylesheet" href="./static/lib/css/keen-dashboards.css">
@@ -16,12 +13,6 @@
 		<link rel="stylesheet" href="./static/lib/css/animate.min.css">
 		<link rel="stylesheet" href="./static/css/style.css">
 		<link rel="stylesheet" href="./static/css/custom.css">
-
-<!-- 		<link rel="stylesheet" href="./static/lib/css/bootstrap.min.css">
-		<link rel="stylesheet" href="./static/lib/css/keen-dashboards.css">
-		<link rel="stylesheet" href="./static/lib/css/dc.css">
-		<link rel="stylesheet" href="./static/lib/css/custom.css"> -->
-
 
 		<link rel="shortcut icon" href="img/ico/32.png" sizes="32x32" type="image/png"/>
 		<link rel="apple-touch-icon-precomposed" href="img/ico/60.png" type="image/png"/>
@@ -39,13 +30,13 @@
 			<div id="main-nav" class="">
 				<div class="container">
 					<div class="nav-header">
-							<a class="nav-brand" href="index.html">100m deep</a>
+							<a class="nav-brand" href="">100m deep</a>
 						</div>
 				</div>
 			</div>
 					
 			<section id="hero" class="light-typo">
-				<div id="cover-image" class="image-bg2 animated fadeIn"></div>
+				<div id="cover-image" class="image-bg2 fadeIn"></div>
 				<div class="container welcome-content">
 					<div class="middle-text">
 						<h1>A dive into Lending Club data</h1>
@@ -89,7 +80,8 @@
 							      <div class="col-sm-12">
 							        <div class="chart-wrapper">
 							          <div class="chart-title">
-							            Portfolio Returns
+							            Portfolio Returns      
+							            <a class="reset" href="javascript:reset_filters();" style="display: true;">reset all</a>
 							          </div>
 							          <div class="chart-stage">
 							            <div id="returns-chart"></div>
@@ -102,7 +94,7 @@
 							      <div class="col-sm-4">
 							        <div class="chart-wrapper">
 							          <div class="chart-title">
-							            average-returns
+							            Strategy Average Return
 							          </div>
 							          <div class="chart-stage">
 							            <div id="average-returns"></div>
@@ -113,7 +105,7 @@
 							   	  <div class="col-sm-4">
 							        <div class="chart-wrapper">
 							          <div class="chart-title">
-							            Loan Grade
+							            Loan Grade 
 							          </div>
 							          <div class="chart-stage">
 							            <div id="int-rate-chart"></div>
@@ -121,12 +113,10 @@
 							        </div>
 							      </div>
 
-
-
 							      <div class="col-sm-4">
 							        <div class="chart-wrapper">
 							          <div class="chart-title">
-							            newly-issued
+							          	Such Loan Supply(last quarter)
 							          </div>
 							          <div class="chart-stage">
 							            <div id="newly-issued"></div>

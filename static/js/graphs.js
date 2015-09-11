@@ -116,21 +116,23 @@ function makeGraphs(error, data) {
 
 
     //Charts
-	var score_delinq_2yrs_chart = dc.pieChart("#delinq-2yrs-chart");
-	var score_emp_length_chart = dc.pieChart("#emp-length-chart");
-	var score_home_ownership_chart = dc.pieChart("#home-ownership-chart");
-	var score_inq_last_6mths_chart = dc.pieChart("#inq-last-6mths-chart");
-	var score_annual_inc_chart = dc.pieChart("#annual-inc-chart");
-	var score_pub_rec_chart = dc.pieChart("#pub-rec-chart");
-	var score_purpose_chart	= dc.pieChart("#purpose-chart");
-	var score_term_chart = dc.pieChart("#term-chart");
-	var score_int_rate_chart = dc.pieChart("#int-rate-chart");
+	 score_delinq_2yrs_chart = dc.pieChart("#delinq-2yrs-chart");
+	 score_emp_length_chart = dc.pieChart("#emp-length-chart");
+	 score_home_ownership_chart = dc.pieChart("#home-ownership-chart");
+	 score_inq_last_6mths_chart = dc.pieChart("#inq-last-6mths-chart");
+	 score_annual_inc_chart = dc.pieChart("#annual-inc-chart");
+	 score_pub_rec_chart = dc.pieChart("#pub-rec-chart");
+	 score_purpose_chart	= dc.pieChart("#purpose-chart");
+	 score_term_chart = dc.pieChart("#term-chart");
+	 score_int_rate_chart = dc.pieChart("#int-rate-chart");
 
 	var returns_chart = dc.lineChart("#returns-chart");
 	// var notionals_chart = dc.lineChart("#notionals-chart");
 	var average_returns_number = dc.numberDisplay("#average-returns");
 	var newly_issued_number = dc.numberDisplay("#newly-issued");
 
+pie_label = {"RENT":"rent","OWN": "own","1.0DEQ":"some","0.0DEQ": "none",">2 years":">2 yr","<2 years": "<2 yr",
+"0ENQ":"none","1OR2ENQ": "1, 2", "2+ENQ":"3+","0.0PUB":"none","1.0PUB":"some", "D":"debt", "C":"credit", "H":"home", "O":"other"};
 
 	score_delinq_2yrs_chart
 		.width(130)
@@ -139,6 +141,7 @@ function makeGraphs(error, data) {
 		.group(score_delinq_2yrs_group)
 		.radius(60)
 		.innerRadius(30)
+		.label(function(p){return pie_label[p.data.key];})
 		.transitionDuration(500);
 
 	score_emp_length_chart
@@ -148,6 +151,7 @@ function makeGraphs(error, data) {
 		.group(score_emp_length_group)
 		.radius(60)
 		.innerRadius(30)
+		.label(function(p){return pie_label[p.data.key];})
 		.transitionDuration(500);
 
 	score_home_ownership_chart
@@ -157,7 +161,8 @@ function makeGraphs(error, data) {
 		.group(score_home_ownership_group)
 		.radius(60)
 		.innerRadius(30)
-		.transitionDuration(500);
+		.label(function(p){return pie_label[p.data.key];})
+		.transitionDuration(500)		
 
 	score_inq_last_6mths_chart
 		.width(130)
@@ -166,7 +171,8 @@ function makeGraphs(error, data) {
 		.group(score_inq_last_6mths_group)
 		.radius(60)
 		.innerRadius(30)
-		.transitionDuration(500);
+		.label(function(p){return pie_label[p.data.key];})
+		.transitionDuration(500)
 
 	score_annual_inc_chart
 		.width(130)
@@ -184,6 +190,7 @@ function makeGraphs(error, data) {
 		.group(score_pub_rec_group)
 		.radius(60)
 		.innerRadius(30)
+		.label(function(p){return pie_label[p.data.key];})
 		.transitionDuration(500);
 
 	score_purpose_chart
@@ -193,6 +200,7 @@ function makeGraphs(error, data) {
 		.group(score_purpose_group)
 		.radius(60)
 		.innerRadius(30)
+		.label(function(p){return pie_label[p.data.key];})
 		.transitionDuration(500);
 
 	score_term_chart
@@ -205,6 +213,8 @@ function makeGraphs(error, data) {
 		.transitionDuration(500);
 
 	score_int_rate_chart
+		// .turnOnControls(true)
+		// .controlsUseVisibility(false)
 		.dimension(score_int_rate_dim)
 		.group(score_int_rate_group)
 		.width(130)
@@ -217,12 +227,13 @@ function makeGraphs(error, data) {
 		.renderArea(true)
         .width(800)
         .height(200)
-        // .brushOn(true)
+        .brushOn(false)
 		.dimension(month_dim)
 		.group(returns_group)
 		.valueAccessor(function (p) {return p.value.returns;})
 		.x(d3.time.scale().domain([new Date(2008, 0, 1), new Date(2015, 5, 30)]))
-		.y(d3.scale.linear().domain([-0.02, 0.15]));
+		.y(d3.scale.linear().domain([-0.02, 0.15]))
+		.yAxis().tickFormat(d3.format(".0%"));
 
   //   notionals_chart
 		// .renderArea(true)
@@ -245,4 +256,17 @@ function makeGraphs(error, data) {
 		.valueAccessor(function (p) {return p.newly_issued;})
 
     dc.renderAll();
+};
+
+function reset_filters(){
+	score_delinq_2yrs_chart.filterAll();
+	score_emp_length_chart.filterAll();
+	score_home_ownership_chart.filterAll();
+	score_inq_last_6mths_chart.filterAll();
+	score_annual_inc_chart.filterAll();
+	score_pub_rec_chart.filterAll();
+	score_purpose_chart.filterAll();
+	score_term_chart.filterAll();
+	score_int_rate_chart.filterAll();
+	dc.redrawAll();
 };
