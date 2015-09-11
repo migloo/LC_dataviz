@@ -39,7 +39,7 @@
 				<div id="cover-image" class="image-bg2 fadeIn"></div>
 				<div class="container welcome-content">
 					<div class="middle-text">
-						<h1>A dive into Lending Club data</h1>
+						<h1>A Dive Into The Lending Club Data</h1>
 						<h2>In search for higher returns</h2>
 					</div>	
 				</div>
@@ -48,39 +48,39 @@
 			<div class="container content">
 					<div class="row">
 						<div class="col-md-10 col-md-offset-1">
-							
 							<div class="post-date">
 								Sept. 10, 2015 
 							</div>		
-							<!-- <h1>We don't have a brig</h1> -->
-							<div class="post-intro">We tested more than 3,500 investment strategies and put together a data-visualization: see how much each returns in average, through time, and how much demand there is from borrowers with each strategy characteristics.</div>
+							<div class="post-intro">We tested more than 3,500 investment strategies and put together an interactive data-visualization for you to explore them. Assess how much each strategy returns in average, through time, and how much demand there is from borrowers corresponding to the strategy criteria.</div>
+							
 							<div class="">Pipe: <code> LendingClub Data |> Pandas |> Crossfilter.js, D3.js, DC.js</code></div>
 
-
-							<h2>P2P lending essentials</h2>
-							<p>If you’ve never looked into peer-to-peer lending, you’ve at least probably heard of it. People lending directly to other people through online platforms such as LendingClub or Prosper. Borrowers get loans to refinance their credit cards, consolidate their debt or finance a home improvement at a better rate than their banks would give them. Lenders get a return on their investment that is typically much better than traditional Certificate of Deposit or saving accounts.</p>
-							<p>As an investor, you should build a portfolio extending small loans to a large number of individuals to benefit from diversification. Every month, you’ll collect interests and notional repayments from people you’ve lent to, and occasionally you’ll suffer losses from people who defaulted on their payments. Usually, the losses will be less than the interest payments and you’ll be left with a good positive return on your investment.</p>
+							<h2>How The Lending Club Works</h2>
+							<p>Online peer-to-peer lending platforms such as LendingClub or Prosper have been growing a lot recently.</p>
+							<p>Borrowers get loans to refinance their credit cards, consolidate their debt or finance a home improvement at a better rate than their banks would give them. Lenders get a return on their investment that is typically much better than traditional Certificate of Deposit or saving accounts.</p>
+							<p>As an investor, you should build a portfolio extending small loans to a large number of individuals to benefit from <strong>diversification</strong>.</p>
+							<p>Every month, you’ll <strong>collect interests</strong> and notional repayments from people you’ve lent to, and occasionally you’ll <strong>suffer losses</strong> from people who defaulted on their payments. Usually, the losses will be less than the interest payments and you’ll <strong>be left with a good positive return</strong> on your investment.</p>
 
 
 							<p>When defining your investment strategy on the lending club platform you should essentially care about 4 things:</p>
 							<ul>
-								<li> How much you’re getting to invest: that’s your <code>expected return</code>.</li>
-								<li> How safe your money is: that’s your risk i.e. the uncertainty around these returns.</li>
-								<li> How long your money is committed for:  that’s the maturity of your investment.</li>
-								<li> How long it will take to find borrowers that match your investment criteria.</li>
+								<li>your <code>expected return</code> i.e. how much money you’re getting out of your investment</li>
+								<li>the <code>risk</code> i.e. the uncertainty around these returns</li>
+								<li>the <code>maturity</code> of your investment i.e. how long your money is committed for</li>
+								<li>the <code>liquidity</code> of your investment i.e. how long it will take to deploy your cash on the platform, and to liquidate your positions if needed</li>
 							</ul>
-							<p> The Lending Club issues a grading for each loan and allows you to select the people you lend to according to this grade and some additional geographical, credit and income characteristics</p>
-							<p> You can play with the dataviz below to see how each strategy performed through the last few years: how much does it return in average, how does it perform through time, and how much demand there is from borrowers with your strategy characteristics.</p>
+							<p> The Lending Club assigns <strong>a grade</strong> to each loan and allows you to <strong>filter</strong> the people you lend to according to this grade and some <strong>additional geographical, credit and income criteria</strong></p>
 
-
-							<h2>Exploring The Data</h2>
+							<h2>Seeking The Pearl</h2>
+							<div class="post-intro">Click the pie charts below to select a filter and play with it to optimize your strategy</div>
+							<p>Watch for your <strong>average return</strong>, <strong>returns consistency through time</strong>, while making sure there is <strong>enough supply</strong> on the platform for your strategy.</p>
 							  <div class="container-fluid">
 							    <div class="row">
 
 							      <div class="col-sm-12">
 							        <div class="chart-wrapper">
 							          <div class="chart-title">
-							            Portfolio Returns      
+							            Strategy Returns Through Time      
 							            <a class="reset" href="javascript:reset_filters();" style="display: true;">reset all</a>
 							          </div>
 							          <div class="chart-stage">
@@ -116,7 +116,7 @@
 							      <div class="col-sm-4">
 							        <div class="chart-wrapper">
 							          <div class="chart-title">
-							          	Such Loan Supply(last quarter)
+							          	Corresponding Supply (last quarter)
 							          </div>
 							          <div class="chart-stage">
 							            <div id="newly-issued"></div>
@@ -216,17 +216,31 @@
 							          </div>
 							        </div>
 							      </div>
-
-
-
- 
-
 							    </div>
 							  </div>
-							<h2>Some Strategies I like and some I don’t’ like</h2>
+							<h2>Strategies I like and Strategies I don’t’ like</h2>
 							<p>I like a lot lending to people who had 1 or more delinquency. I limit myself to grades B,C,D and E. Historical returns are above 9%, stable through time. There has been loan for 44M worth issued through the plaftform in the last quarter which is good enough.</p>
+							
 							<p>I also like lending to people who own their home, and have not had any credit inquiry. Returns are very consistent through time. Supply is good, 150M$ on the platform last quarter. For an extra ‘kick’ remove the ‘A’ grade from the filter. It’s gets me up to 7.85%.</p>
+							
 							<p>In general, I don’t like ‘A’ graded loans too much. Their average return is of 4.3%. That’s much lower than the average market. Even though that’s probably the only category that did not suffer too much during the crisis, I find that the premium to pay for this lower risk is too high.</p>
+							
+							<h2>Methodology And Other Technical Considerations</h2>
+							<p>
+							</p>
+
+							<div id="author" class="clearfix">
+									<img class="img-circle" alt="" src="img/clement.jpg" height="96" width="96">
+									<div class="author-info">
+										<h3>Clement Miglietti</h3>
+										<p>I am passionned about data driven decision making. I am always happy to talk so let's get in touch on <a href="https://www.linkedin.com/pub/clement-miglietti/3/320/5a">LinkedIn</a>.</p>
+									</div>
+							</div>
+							<ul class="social-links outline text-center">
+									<li><a href="https://twitter.com/CMiglietti"><i class="icon-twitter"></i></a></li>
+									<li><a href="https://www.linkedin.com/pub/clement-miglietti/3/320/5a"><i class="icon-link"></i></a></li>
+									<i class="fa fa-linkedin"></i>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -254,11 +268,6 @@
 					<div class="copyright">
 						<div class="container">
 							<p class="pull-left">This site is not affiliated with Lending Club. This site does not provide investment advice. Investment decisions are made by users at their own risk</p>
-<!-- 							<ul class="social-links pull-right">
-								<li><a href="#link"><i class="icon-twitter"></i></a></li>
-								<li><a href="#link"><i class="icon-facebook"></i></a></li>
-								<li><a href="#link"><i class="icon-googleplus"></i></a></li>
-							</ul> -->
 						</div>
 					</div>
 				</footer>

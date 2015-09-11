@@ -227,7 +227,7 @@ pie_label = {"RENT":"rent","OWN": "own","1.0DEQ":"some","0.0DEQ": "none",">2 yea
 		.renderArea(true)
         .width(800)
         .height(200)
-        .brushOn(false)
+        .brushOn(true)
 		.dimension(month_dim)
 		.group(returns_group)
 		.valueAccessor(function (p) {return p.value.returns;})
