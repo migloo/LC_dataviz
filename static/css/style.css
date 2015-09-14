@@ -14,17 +14,17 @@ html,body {
 
 a {
 	font-weight: bold;
-	color: #339999;
+	color: #3399cc;
 	border-bottom: 1px solid rgba(198, 70, 61, 0);
 	-webkit-transition: border 0.2s;
 	-moz-transition: border 0.2s;
 	transition: border 0.2s;
 }
 a:hover {
-	border-bottom: 1px solid #339999;
+	border-bottom: 1px solid #3399cc;
 	/*border-bottom: 1px solid #000;*/
 	text-decoration: none;
-	color: #339999;
+	color: #3399cc;
 }
 
 hr {
@@ -54,10 +54,10 @@ pre {
 }
 
 .lime {
-	background-color: #339999!important;
+	background-color: #3399cc!important;
 }	
 .lime-text {
-	color: #339999!important;
+	color: #3399cc!important;
 }	
 .blue {
 	background-color: #43b5e9!important;
@@ -65,7 +65,7 @@ pre {
 }	
 .green {
 	background-color: #23A657!important;
-	/*#339999
+	/*#3399cc
 	#679E42*/
 }
 .red {
@@ -91,7 +91,7 @@ pre {
 }
 /* ------------------------ hero ------------------------ */
 #hero {
-	background-color: #339999;
+	background-color: #3399cc;
 	padding: 55px 0;
 	min-height: 200px;
 	padding-bottom: 1em;
@@ -194,9 +194,9 @@ pre {
 	font-weight: 700;
 	outline: none;
 	position: relative;
-	background: #339999;
+	background: #3399cc;
 	color: #fff;
-	border: 1px solid #339999;
+	border: 1px solid #3399cc;
 	border-radius: 4px;
 }
 .btn:hover,
@@ -211,15 +211,15 @@ pre {
 }
 .btn.outline {
 	background: transparent;
-	border: 2px solid #339999;
+	border: 2px solid #3399cc;
 	box-shadow: none;
-	color: #339999;
+	color: #3399cc;
 	text-decoration: none;
 }
 .btn.outline:hover,
 .btn.outline:focus {
-	background: #339999;
-	border-color: #339999;
+	background: #3399cc;
+	border-color: #3399cc;
 	color:#FFF;
 	top:0;
 	text-decoration: none;
@@ -269,7 +269,7 @@ pre {
 
 /* ------------------------ top navigation ------------------------ */
 #main-nav{
-	/* background-color: #339999; */
+	/* background-color: #3399cc; */
 	height: 55px;
 	line-height: 55px;
 	position: absolute;
@@ -280,7 +280,7 @@ pre {
 }
 
 #main-nav.nav-bg{
-	 background-color: #339999; 
+	 background-color: #3399cc; 
 }
 #main-nav.fixed-top {
 	position: fixed;
@@ -443,7 +443,7 @@ pre {
 #menu>ul>li a:focus {
 	background-color: #1e1f27 !important;
 	color: #FFF;
-	color: #339999;
+	color: #3399cc;
 	text-decoration: none;
 }
 #menu .header {
@@ -492,7 +492,7 @@ pre {
 	left: 16px;
 }
 #menu .badge {
-	background-color: #339999;
+	background-color: #3399cc;
 	color: #12131A;
 	position: absolute;
 	right: 15px;
@@ -833,14 +833,14 @@ article .btn {
 	outline: none;
 	position: relative;
 	background: #FFF;
-	color: #339999;
-	border: 1px solid #339999;
+	color: #3399cc;
+	border: 1px solid #3399cc;
 	border-radius: 4px;
 
 }
 #comments_pagination span {
-	border: 1px solid #339999;
-	background: #339999;
+	border: 1px solid #3399cc;
+	background: #3399cc;
 	color: #FFF;
 }
 
@@ -862,7 +862,7 @@ article .btn {
 	font-size: 14px;
 	line-height: 18px;
 	margin-bottom: 3em;
-	/* color: #339999; */
+	/* color: #3399cc; */
 }
 .widget hr{
 	margin: 10px 0 5px 0;
@@ -877,7 +877,7 @@ article .btn {
 }
 .widget h3 {
 	margin-top: 0;
-	/*background-color: #339999;*/
+	/*background-color: #3399cc;*/
 	background-color: #ccc;
 	padding: 12px 14px;
 	/*color: #FFF;*/
@@ -976,7 +976,7 @@ article .btn {
 .myform textarea.inputError:focus,
 .input-group .form-control:focus {
 	outline:none;
-	border: 2px solid #339999;
+	border: 2px solid #3399cc;
 }
 
 .myform.no-placeholder .error-message {
@@ -1129,27 +1129,27 @@ address {
 }
 .social-links li a:hover {
 	color: #121417;
-	background:#339999;
+	background:#3399cc;
 	text-decoration: none;
-	border-color: #339999;
+	border-color: #3399cc;
 }
 
 .social-links.outline li a {
-	color: #339999;
-	 border: 1px solid #339999; 
+	color: #3399cc;
+	 border: 1px solid #3399cc; 
 }
 .social-links.outline li a:hover {
 	color: #FFF;
-	background:#339999;
+	background:#3399cc;
 	text-decoration: none;
-	border-color: #339999;
+	border-color: #3399cc;
 }
 .social-links.outline-white li a {
 	color: #FFF;
 	 border: 1px solid #FFF; 
 }
 .social-links.outline-white li a:hover {
-	color: #339999;
+	color: #3399cc;
 	background:#FFF;
 	text-decoration: none;
 	border-color: #FFF;
@@ -1237,7 +1237,7 @@ footer .copyright {
 }
 .tags li a:hover,
 .tags li a:active {
-	background-color: #339999; 
+	background-color: #3399cc; 
 }
 /* ------------------------------ Media -------------------------- */
 @media (min-width: 600px) {

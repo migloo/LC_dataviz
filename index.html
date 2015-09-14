@@ -14,11 +14,11 @@
 		<link rel="stylesheet" href="./static/css/style.css">
 		<link rel="stylesheet" href="./static/css/custom.css">
 
-		<link rel="shortcut icon" href="img/ico/32.png" sizes="32x32" type="image/png"/>
-		<link rel="apple-touch-icon-precomposed" href="img/ico/60.png" type="image/png"/>
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/72.png" type="image/png"/>
-		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/ico/120.png" type="image/png"/>
-		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/ico/152.png" type="image/png"/>
+		<!-- <link rel="shortcut icon" href="img/ico/32.png" sizes="32x32" type="image/png"/> -->
+		<!-- <link rel="apple-touch-icon-precomposed" href="img/ico/60.png" type="image/png"/> -->
+		<!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/72.png" type="image/png"/> -->
+		<!-- <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/ico/120.png" type="image/png"/> -->
+		<!-- <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/ico/152.png" type="image/png"/> -->
 		<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -40,7 +40,7 @@
 				<div class="container welcome-content">
 					<div class="middle-text">
 						<h1>A Dive Into The Lending Club Data</h1>
-						<h2>In search for higher returns</h2>
+						<h2>Interactively Optimize Your Investment Strategy</h2>
 					</div>	
 				</div>
 			</section>
@@ -51,17 +51,19 @@
 							<div class="post-date">
 								Sept. 10, 2015 
 							</div>		
-							<div class="post-intro">We tested more than 3,500 investment strategies and put together an interactive data-visualization for you to explore them. Assess how much each strategy returns in average, through time, and how much demand there is from borrowers corresponding to the strategy criteria.</div>
+							<div class="post-intro">We pre-computed the performance of more than 3,500 investment strategies and put together an interactive tool for you to explore the results. Play with it and confront your investment intuitions with historical data.</div>
 							
 							<div class="">Pipe: <code> LendingClub Data |> Pandas |> Crossfilter.js, D3.js, DC.js</code></div>
 
 							<h2>How The Lending Club Works</h2>
 							<p>Online peer-to-peer lending platforms such as LendingClub or Prosper have been growing a lot recently.</p>
-							<p>Borrowers get loans to refinance their credit cards, consolidate their debt or finance a home improvement at a better rate than their banks would give them. Lenders get a return on their investment that is typically much better than traditional Certificate of Deposit or saving accounts.</p>
+
+							<h4>Why and how to invest</h4>									
+							<p>Borrowers get loans to refinance their credit cards, consolidate their debt or finance a home improvement at a better rate than their banks would give them. Lenders get a return on their investment that is typically much better than traditional Certificate of Deposit or Saving Accounts.</p>
 							<p>As an investor, you should build a portfolio extending small loans to a large number of individuals to benefit from <strong>diversification</strong>.</p>
 							<p>Every month, you’ll <strong>collect interests</strong> and notional repayments from people you’ve lent to, and occasionally you’ll <strong>suffer losses</strong> from people who defaulted on their payments. Usually, the losses will be less than the interest payments and you’ll <strong>be left with a good positive return</strong> on your investment.</p>
 
-
+							<h4>Making the right investment decisions</h4>		
 							<p>When defining your investment strategy on the lending club platform you should essentially care about 4 things:</p>
 							<ul>
 								<li>your <code>expected return</code> i.e. how much money you’re getting out of your investment</li>
@@ -69,11 +71,39 @@
 								<li>the <code>maturity</code> of your investment i.e. how long your money is committed for</li>
 								<li>the <code>liquidity</code> of your investment i.e. how long it will take to deploy your cash on the platform, and to liquidate your positions if needed</li>
 							</ul>
-							<p> The Lending Club assigns <strong>a grade</strong> to each loan and allows you to <strong>filter</strong> the people you lend to according to this grade and some <strong>additional geographical, credit and income criteria</strong></p>
+
+							<h4>It's all a matter of people</h4>		
+							<p>The performance of your investment will depend on who you lend to and on the proportion of good payers and bad apples in your portfolio. The Lending Club helps you in making your selection by assigning <strong>a grade</strong> to each loan. The platform also allows you to <strong>filter</strong> people you lend to according to some additional geographical, credit and income criteria.</p>
+							<p>The most important criteria are: 
+								<ul>
+									<li>the borrower <strong>annual income</strong>, 
+									<li>the <strong>purpose of the loan</strong>, 
+									<li>the <strong>maturity of the loan</strong>,
+									<li>the presence of any <strong>recent delinquencies</strong> or 
+									<li>any <strong>public records</strong> on the credit report, 
+									<li>the <strong>employment length</strong> with the current employer, 
+									<li>and finally, whether the borrower <strong>owns or rents</strong> his home
+								</ul>
+							So let's see how these parameters impact your investment.
+							</p>
+
+							<h2>Strategies I like and Strategies I don’t’ like</h2>
+							<h4>"The second chance"</h4>
+							<p>People whose credit report shows a delinquency are heavily penalized by the Lending Club algorithm. A bit too much, it seems. That's why I like lending to them a lot. I limit myself to grades B,C,D and E. It gives me historical returns above 9%, with not much risk as returns look stable through time. 413M worth of such loans have been issued on the plaftform in 2014, which represents about 11% of the total supply.</p>
+							<img src="/img/delq.gif" class="img-responsive animated-gif"> 
+							
+							<h4>"The family guy"</h4>
+							<p>I also like lending to people who own their home, and whose credit report doesn't show any credit inquiry. They feel safe to me. Returns are also very consistent through time. Supply is good, 883M$ on the platform last year. For an extra ‘kick’ I remove the ‘A’ grade from the filter, selecting only grades B,C and D. It’s gets me up to 8.09% return.</p>
+							<img src="/img/ownTheirHome.gif" class="img-responsive animated-gif"> 
+							
+							<h4>"The safe haven"</h4>
+							<p>In general, I don’t like ‘A’ graded loans too much. Yes, they're safe. But they don't yield much. Their average return is 4.3%. The average of the market is 6.68%. So, even though that’s probably the only category that did not suffer too much during the crisis, I find that the premium to pay for a grade 'A' is too high.</p>
+							<img src="/img/agrade.gif" class="img-responsive animated-gif"> 
+
 
 							<h2>Seeking The Pearl</h2>
-							<div class="post-intro">Click the pie charts below to select a filter and play with it to optimize your strategy</div>
-							<p>Watch for your <strong>average return</strong>, <strong>returns consistency through time</strong>, while making sure there is <strong>enough supply</strong> on the platform for your strategy.</p>
+							<div class="post-intro">Click the pie charts below to select a filter, compare strategies, or fine-tune the one you like</div>
+							<p>Watch for your <strong>average return</strong> (<code>expected return</code>), <strong>consistency of returns through time </strong>(<code>risk</code>), while making sure there is <strong>enough supply</strong> (<code>liquidity</code>) on the platform to deploy your strategy.</p>
 							  <div class="container-fluid">
 							    <div class="row">
 
@@ -116,7 +146,7 @@
 							      <div class="col-sm-4">
 							        <div class="chart-wrapper">
 							          <div class="chart-title">
-							          	Corresponding Supply (last quarter)
+							          	Corresponding Supply (2014)
 							          </div>
 							          <div class="chart-stage">
 							            <div id="newly-issued"></div>
@@ -218,23 +248,18 @@
 							      </div>
 							    </div>
 							  </div>
-							<h2>Strategies I like and Strategies I don’t’ like</h2>
-							<p>I like a lot lending to people who had 1 or more delinquency. I limit myself to grades B,C,D and E. Historical returns are above 9%, stable through time. There has been loan for 44M worth issued through the plaftform in the last quarter which is good enough.</p>
-							
-							<p>I also like lending to people who own their home, and have not had any credit inquiry. Returns are very consistent through time. Supply is good, 150M$ on the platform last quarter. For an extra ‘kick’ remove the ‘A’ grade from the filter. It’s gets me up to 7.85%.</p>
-							
-							<p>In general, I don’t like ‘A’ graded loans too much. Their average return is of 4.3%. That’s much lower than the average market. Even though that’s probably the only category that did not suffer too much during the crisis, I find that the premium to pay for this lower risk is too high.</p>
+
 							
 							<h2>Methodology And Other Technical Considerations</h2>
-							<p>The returns that you see above are the average ROI an investor would get if he were to continually invest in the strategy.</p>
+							<p>The returns that you see above are the average ROI an investor would get if he were to continually invest in a given strategy.</p>
 							<p>An investor who keeps his money on the Lending Club platform for some time will end up with a portfolio of loans of different ‘vintages’ (i.e. issue date). The maturity profile of this portfolio can be predicted and must be taken into account to compute accurate returns. If not, the returns computation will be biased by several percent.</p>
 							<p>Please also note than due to the low issuance volume in the early days of the platform, the returns computed for the pre-2010 period are much less reliable than the post-2010 returns.</p>
-							<p>Please contact me, <a>Clement@100mDeep.com</a>, for any question regarding the methodology.</p>
+							<p>For any question, feel free to contact me at <a>Clement@100mDeep.com</a></p>
 							<div id="author" class="clearfix">
 									<img class="img-circle" alt="" src="img/clement.jpg" height="96" width="96">
 									<div class="author-info">
 										<h3>Clement Miglietti</h3>
-										<p>I am passionned about data driven decision making. I am always happy to talk so let's get in touch on <a href="https://www.linkedin.com/pub/clement-miglietti/3/320/5a">LinkedIn</a>.</p>
+										<p>I am passionnate about data driven decision making. I am always happy to talk so let's get in touch on <a href="https://www.linkedin.com/pub/clement-miglietti/3/320/5a">LinkedIn</a>.</p>
 									</div>
 							</div>
 							<ul class="social-links outline text-center">

@@ -14,7 +14,7 @@ function makeGraphs(error, data) {
         d.month = d3.time.month(d.dd); // pre-calculate month for better performance
         d.notionals = isNaN(parseFloat(d.loans_outstanding_notionals)) ? 0.0 : parseFloat(d.loans_outstanding_notionals);
         d.returns = isNaN(parseFloat(d.average_returns)) ? 0.0 : parseFloat(d.average_returns)*12.0;
-        d.newly_issued = (isNaN(parseFloat(d.newly_issued))||d.quarter!="6/30/2015") ? 0.0 : parseFloat(d.newly_issued);
+        d.newly_issued = (isNaN(parseFloat(d.newly_issued))||d.dd.getFullYear()!=2014) ? 0.0 : parseFloat(d.newly_issued);
         v = d.mask_id.split("#");
         d.score_delinq_2yrs	= v[0];
         d.score_int_rate	= v[1];
@@ -51,7 +51,7 @@ function makeGraphs(error, data) {
 	var score_purpose_group = score_purpose_dim.group().reduceSum(get_notional);
 	var score_term_group = score_term_dim.group().reduceSum(get_notional);
 	var score_int_rate_group = score_int_rate_dim.group().reduceSum(get_notional);
-	var notionals_group = month_dim.group().reduceSum(get_notional);
+	// var notionals_group = month_dim.group().reduceSum(get_notional);
 
 	var returns_group = month_dim.group().reduceSum(get_average_return);
     var returns_group = month_dim.group().reduce(
@@ -113,7 +113,6 @@ function makeGraphs(error, data) {
             };
         }
     );
-
 
     //Charts
 	 score_delinq_2yrs_chart = dc.pieChart("#delinq-2yrs-chart");
@@ -253,7 +252,8 @@ pie_label = {"RENT":"rent","OWN": "own","1.0DEQ":"some","0.0DEQ": "none",">2 yea
 	// need a filter to get only the last quarter issue
 	newly_issued_number
 		.group(average_returns_group)
-		.valueAccessor(function (p) {return p.newly_issued;})
+		.valueAccessor(function (p) {return p.newly_issued/1000000.0;})
+		.formatNumber(function(d){ return d3.format(",.0f")(d)+"M"});
 
     dc.renderAll();
 };
