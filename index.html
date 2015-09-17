@@ -87,16 +87,16 @@
 							So let's see how these parameters impact your investment.
 							</p>
 
-							<h2>Strategies I like and Strategies I don’t’ like</h2>
-							<h4>"The second chance"</h4>
+							<h2>Strategies I like and Strategies I don’t</h2>
+							<h4>The "second chance" strategy</h4>
 							<p>People whose credit report shows a delinquency are heavily penalized by the Lending Club algorithm. A bit too much, it seems. That's why I like lending to them a lot. I limit myself to grades B,C,D and E. It gives me historical returns above 9%, with not much risk as returns look stable through time. 413M worth of such loans have been issued on the plaftform in 2014, which represents about 11% of the total supply.</p>
 							<img src="/img/delq.gif" class="img-responsive animated-gif"> 
 							
-							<h4>"The family guy"</h4>
+							<h4>The "family guy" strategy</h4>
 							<p>I also like lending to people who own their home, and whose credit report doesn't show any credit inquiry. They feel safe to me. Returns are also very consistent through time. Supply is good, 883M$ on the platform last year. For an extra ‘kick’ I remove the ‘A’ grade from the filter, selecting only grades B,C and D. It’s gets me up to 8.09% return.</p>
 							<img src="/img/ownTheirHome.gif" class="img-responsive animated-gif"> 
 							
-							<h4>"The safe haven"</h4>
+							<h4>The "safe haven" strategy</h4>
 							<p>In general, I don’t like ‘A’ graded loans too much. Yes, they're safe. But they don't yield much. Their average return is 4.3%. The average of the market is 6.68%. So, even though that’s probably the only category that did not suffer too much during the crisis, I find that the premium to pay for a grade 'A' is too high.</p>
 							<img src="/img/agrade.gif" class="img-responsive animated-gif"> 
 
@@ -251,15 +251,23 @@
 
 							
 							<h2>Methodology And Other Technical Considerations</h2>
-							<p>The returns that you see above are the average ROI an investor would get if he were to continually invest in a given strategy.</p>
-							<p>An investor who keeps his money on the Lending Club platform for some time will end up with a portfolio of loans of different ‘vintages’ (i.e. issue date). The maturity profile of this portfolio can be predicted and must be taken into account to compute accurate returns. If not, the returns computation will be biased by several percent.</p>
+
+							<h4>Goal</h4>	
+							<p>The goal is to provide a simple interactive tool to explore and compare historical performances of investment strategies, so that an investor on the Lending Club platform would make better decisions.</p>
+
+							<h4>Current Methodology</h4>
+							<p>I considered that investors deploy and re-invest their money continuously on the platform and therefore own of portfolio with different ‘vintages’ of loans. The ROI that are computed reflect this, as they are average returns across vintages of loans.</p>
+
+							<h4>Future improvements</h4>
+							<p>Currently, when there are not enough loans for a given vintage in a given filter, the return computation may be statistically unreliable. So you may find couple filters showing abnormal data points. This should be addressed by further normalizing the data.</p>
 							<p>Please also note than due to the low issuance volume in the early days of the platform, the returns computed for the pre-2010 period are much less reliable than the post-2010 returns.</p>
+
 							<p>For any question, feel free to contact me at <a>Clement@100mDeep.com</a></p>
 							<div id="author" class="clearfix">
 									<img class="img-circle" alt="" src="img/clement.jpg" height="96" width="96">
 									<div class="author-info">
 										<h3>Clement Miglietti</h3>
-										<p>I am passionnate about data driven decision making. I am always happy to talk so let's get in touch on <a href="https://www.linkedin.com/pub/clement-miglietti/3/320/5a">LinkedIn</a>.</p>
+										<p>I am passionnate about data driven decision making. I am always happy to talk so don't hesitate to contact me on <a href="https://www.linkedin.com/pub/clement-miglietti/3/320/5a">LinkedIn</a>.</p>
 									</div>
 							</div>
 							<ul class="social-links outline text-center">
@@ -298,7 +306,7 @@
 					</div>
 					<div class="copyright">
 						<div class="container">
-							<p class="pull-left">This site is not affiliated with Lending Club. This site does not provide investment advice. Investment decisions are made by users at their own risk</p>
+							<p class="pull-left">This site is not affiliated with Lending Club. This site does not provide investment advice. Investment decisions are made by users at their own risk.</p>
 						</div>
 					</div>
 				</footer>
