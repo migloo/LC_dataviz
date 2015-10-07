@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background"
+			],
+			[
 				"new",
 				"newly_issued"
 			],
@@ -510,10 +514,6 @@
 			[
 				"ou",
 				"loan_outstanding_notional"
-			],
-			[
-				"lastp",
-				"last_pymnt_datetime"
 			]
 		]
 	},
@@ -523,15 +523,15 @@
 			"file": "static/js/graphs.js",
 			"settings":
 			{
-				"buffer_size": 9609,
+				"buffer_size": 9610,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/index.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 13715,
+				"buffer_size": 16984,
 				"line_ending": "Unix"
 			}
 		}
@@ -620,21 +620,22 @@
 	},
 	"file_history":
 	[
-		"/C/codebase/git/LC_dataviz/static/css/custom.css",
-		"/C/codebase/git/LC_dataviz/static/lib/css/icons.css",
 		"/C/codebase/git/LC_dataviz/static/css/style.css",
+		"/C/codebase/git/LC_dataviz/index.html",
+		"/C/codebase/git/LC_dataviz/static/css/custom.css",
+		"/C/codebase/template purchased/products-WB062D26M/KeyLime.1.0/html/post-image.html",
+		"/C/codebase/git/LC_dataviz/app.py",
+		"/C/codebase/git/LC_dataviz/templates/index.html",
+		"/C/codebase/git/LC_dataviz/static/lib/css/icons.css",
 		"/C/codebase/git/LC_dataviz/static/lib/css/blue.css",
 		"/C/codebase/template purchased/products-WB062D26M/KeyLime.1.0/html/post-video.html",
 		"/C/codebase/git/LC_dataviz/static/lib/css/custom.css",
 		"/C/codebase/git/LC_dataviz/static/js/graphs.js",
-		"/C/codebase/git/LC_dataviz/app.py",
-		"/C/codebase/git/LC_dataviz/templates/index.html",
 		"/C/codebase/git/LC_dataviz/TODO",
 		"/C/codebase/git/TheGuarantors/WebApp/mup.example.json",
 		"/C/codebase/git/TheGuarantors/WebApp/settings.json",
 		"/C/codebase/git/TheGuarantors/settings.json",
 		"/C/codebase/git/TheGuarantors/mup.json",
-		"/C/codebase/git/LC_dataviz/index.html",
 		"/C/codebase/git/playing_with_images.py",
 		"/C/codebase/git/web/GraphController/leBonCoin.py",
 		"/C/codebase/git/LC/lc_test_filters_2.py",
@@ -761,6 +762,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"loan",
+			"don't",
+			"don't'",
+			"							",
+			"ico",
+			"339999",
+			"img",
+			"img/img5",
+			"diving",
+			"img",
+			"img-resp",
 			"month",
 			"newly_issued_number",
 			"numberDisplay",
@@ -877,6 +889,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"3399cc",
 			"339999",
 			"		.width(130)\n        .height(130)",
 			"col-sm-3",
@@ -900,7 +913,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -908,15 +921,15 @@
 					"file": "static/js/graphs.js",
 					"settings":
 					{
-						"buffer_size": 9609,
+						"buffer_size": 9610,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								340,
-								340
+								3611,
+								3611
 							]
 						],
 						"settings":
@@ -1117,25 +1130,25 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 732.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "templates/index.html",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 13715,
+						"buffer_size": 16984,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11578,
-								11578
+								5830,
+								5830
 							]
 						],
 						"settings":
@@ -1337,7 +1350,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1228.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

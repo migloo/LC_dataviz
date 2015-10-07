@@ -40,7 +40,7 @@
 				<div class="container welcome-content">
 					<div class="middle-text">
 						<h1>A Dive Into The Lending Club Data</h1>
-						<h2>Interactively Optimize Your Investment Strategy</h2>
+						<h2>Find The Best Investment Strategy</h2>
 					</div>	
 				</div>
 			</section>
@@ -51,45 +51,45 @@
 							<div class="post-date">
 								Sept. 10, 2015 
 							</div>		
-							<div class="post-intro">We pre-computed the performance of more than 3,500 investment strategies and put together an interactive tool for you to explore the results. Play with it and confront your investment intuitions with historical data.</div>
+							<div class="post-intro">We pre-computed the performance of more than 3,500 investment strategies and put together an interactive tool to help you explore the results. Play with it and test your investment intuitions against historical data.</div>
 							
 							<div class="">Pipe: <code> LendingClub Data |> Pandas |> Crossfilter.js, D3.js, DC.js</code></div>
 
 							<h2>How The Lending Club Works</h2>
-							<p>Online peer-to-peer lending platforms such as LendingClub or Prosper have been growing a lot recently.</p>
+							<p>Online peer-to-peer lending platforms such as the LendingClub and Prosper have recently seen a great deal of growth.</p>
 
 							<h4>Why and how to invest</h4>									
-							<p>Borrowers get loans to refinance their credit cards, consolidate their debt or finance a home improvement at a better rate than their banks would give them. Lenders get a return on their investment that is typically much better than traditional Certificate of Deposit or Saving Accounts.</p>
-							<p>As an investor, you should build a portfolio extending small loans to a large number of individuals to benefit from <strong>diversification</strong>.</p>
-							<p>Every month, you’ll <strong>collect interests</strong> and notional repayments from people you’ve lent to, and occasionally you’ll <strong>suffer losses</strong> from people who defaulted on their payments. Usually, the losses will be less than the interest payments and you’ll <strong>be left with a good positive return</strong> on your investment.</p>
+							<p>Borrowers receive loans to refinance their credit cards, consolidate their debt or finance a home improvement at a better rate than their banks would provide. Lenders get a return on their investment that is typically much better than that gained from traditional Certificate of Deposit or Saving Accounts.</p>
+							<p>As an investor, you should build a portfolio by extending small loans to a large number of individuals in order to benefit from <strong>diversification</strong>.</p>
+							<p>Every month, you’ll <strong>collect interests</strong> and notional repayments from people you’ve lent to, and occasionally you’ll <strong>suffer losses</strong> from people who have defaulted on their payments. In typical cases, the losses will be less than the interest payments and you’ll <strong>be left with a good positive return</strong> on your investment.</p>
 
 							<h4>Making the right investment decisions</h4>		
 							<p>When defining your investment strategy on the lending club platform you should essentially care about 4 things:</p>
 							<ul>
-								<li>your <code>expected return</code> i.e. how much money you’re getting out of your investment</li>
+								<li>your <code>expected return</code> i.e. how much money you hope to get out of your investment</li>
 								<li>your <code>risk</code> i.e. the uncertainty around these returns</li>
 								<li>the <code>maturity</code> of your investment i.e. how long your money is committed for</li>
 								<li>the <code>liquidity</code> of your investment i.e. how long it will take to deploy your cash on the platform, and to liquidate your positions if needed</li>
 							</ul>
 
 							<h4>It's all a matter of people</h4>		
-							<p>The performance of your investment will depend on who you lend to and on the proportion of good payers and bad apples in your portfolio. The Lending Club helps you in making your selection by assigning <strong>a grade</strong> to each loan. The platform also allows you to <strong>filter</strong> people you lend to according to some additional geographical, credit and income criteria.</p>
+							<p>The performance of your investment will depend on who you lend to and on the proportion of good payers and bad apples in your portfolio. The Lending Club helps you in making your selection by assigning <strong>a grade</strong> to each loan. The platform also allows you to <strong>filter</strong> which people you lend to according to some additional criteria based on location, credit and income data.</p>
 							<p>The most important criteria are: 
 								<ul>
-									<li>the borrower <strong>annual income</strong>, 
-									<li>the <strong>purpose of the loan</strong>, 
-									<li>the <strong>maturity of the loan</strong>,
-									<li>the presence of any <strong>recent delinquencies</strong> or 
-									<li>any <strong>public records</strong> on the credit report, 
-									<li>the <strong>employment length</strong> with the current employer, 
+									<li>the borrower's <strong>annual income</strong>
+									<li>the <strong>purpose of the loan</strong>
+									<li>the <strong>maturity of the loan</strong>
+									<li>the presence of any <strong>recent delinquencies</strong> on the credit report
+									<li>any <strong>public records</strong> 
+									<li>the <strong>employment length</strong> with the current employer
 									<li>and finally, whether the borrower <strong>owns or rents</strong> his home
 								</ul>
-							So let's see how these parameters impact your investment.
+							So let's see how these parameters can impact your investment.
 							</p>
 
 							<h2>Strategies I like and Strategies I don’t</h2>
 							<h4>The "second chance" strategy</h4>
-							<p>People whose credit report shows a delinquency are heavily penalized by the Lending Club algorithm. A bit too much, it seems. That's why I like lending to them a lot. I limit myself to grades B,C,D and E. It gives me historical returns above 9%, with not much risk as returns look stable through time. 413M worth of such loans have been issued on the plaftform in 2014, which represents about 11% of the total supply.</p>
+							<p>People whose credit report shows a delinquency are heavily penalized by the Lending Club algorithm. A bit too much, it seems. That's why I like lending to them a lot. I limit myself to grades B,C,D and E. It gives me historical returns above 9%, with little risk as returns look stable through time. 413M worth of such loans have been issued on the platform in 2014, which represents about 11% of the total supply.</p>
 							<img src="/img/delq.gif" class="img-responsive animated-gif"> 
 							
 							<h4>The "family guy" strategy</h4>
@@ -97,7 +97,7 @@
 							<img src="/img/ownTheirHome.gif" class="img-responsive animated-gif"> 
 							
 							<h4>The "safe haven" strategy</h4>
-							<p>In general, I don’t like ‘A’ graded loans too much. Yes, they're safe. But they don't yield much. Their average return is 4.3%. The average of the market is 6.68%. So, even though that’s probably the only category that did not suffer too much during the crisis, I find that the premium to pay for a grade 'A' is too high.</p>
+							<p>In general, I don’t much like ‘A’ graded loans. Yes, they're safe, but they don't yield high returns. Their average return is 4.3%, whereas the average of the market is 6.68%. Therefore, although this is probably the only category that did not suffer excessively during the economic crisis, I find that the premium to pay for a grade 'A' is too high.</p>
 							<img src="/img/agrade.gif" class="img-responsive animated-gif"> 
 
 
@@ -171,7 +171,7 @@
 							      <div class="col-sm-3">
 							        <div class="chart-wrapper">
 							          <div class="chart-title">
-							            Employement Length
+							            Employment Length
 							          </div>
 							          <div class="chart-stage">
 							            <div id="emp-length-chart"></div>
@@ -253,21 +253,21 @@
 							<h2>Methodology And Other Technical Considerations</h2>
 
 							<h4>Goal</h4>	
-							<p>The goal is to provide a simple interactive tool to explore and compare historical performances of investment strategies, so that an investor on the Lending Club platform would make better decisions.</p>
+							<p>The goal is to provide a simple interactive tool to explore and compare the historical performances of different investment strategies. When I first started to invest on the Lending Club platform, I was a bit frustrated by the lack of analytics that would help me make good investment decisions. This is a first attempt to address the problem.</p>
 
 							<h4>Current Methodology</h4>
-							<p>I considered that investors deploy and re-invest their money continuously on the platform and therefore own of portfolio with different ‘vintages’ of loans. The ROI that are computed reflect this, as they are average returns across vintages of loans.</p>
+							<p>Most investors deploy and re-invest their money continuously on the platform and therefore many own a portfolio with loans of different ‘vintages’. The ROI are computed to reflect this, as they are returns averaged across vintages.</p>
 
 							<h4>Future improvements</h4>
-							<p>Currently, when there are not enough loans for a given vintage in a given filter, the return computation may be statistically unreliable. So you may find couple filters showing abnormal data points. This should be addressed by further normalizing the data.</p>
+							<p>Currently, when there are not enough loans for a given vintage in a given filter, the return analysis may not be statistically significant and may yield outliers. You may therefore find a couple of filters showing abnormal data points. This should be addressed by further normalizing the data.</p>
 							<p>Please also note than due to the low issuance volume in the early days of the platform, the returns computed for the pre-2010 period are much less reliable than the post-2010 returns.</p>
 
-							<p>For any question, feel free to contact me at <a>Clement@100mDeep.com</a></p>
+							<p>For any questions, feel free to contact me at <a>Clement@100mDeep.com</a></p>
 							<div id="author" class="clearfix">
 									<img class="img-circle" alt="" src="img/clement.jpg" height="96" width="96">
 									<div class="author-info">
 										<h3>Clement Miglietti</h3>
-										<p>I am passionnate about data driven decision making. I am always happy to talk so don't hesitate to contact me on <a href="https://www.linkedin.com/pub/clement-miglietti/3/320/5a">LinkedIn</a>.</p>
+										<p>I am passionate about data-driven decision making. I am always happy to talk so don't hesitate to contact me on <a href="https://www.linkedin.com/pub/clement-miglietti/3/320/5a">LinkedIn</a>.</p>
 									</div>
 							</div>
 							<ul class="social-links outline text-center">
