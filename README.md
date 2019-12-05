@@ -1,5 +1,5 @@
 # LC_dataviz
 Dataviz for lending Club
 see here :
-http://100mdeep.com/
+https://migloo.github.io/lending-club-dataviz/
 
